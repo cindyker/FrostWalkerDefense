@@ -1,0 +1,27 @@
+#Debug Logging (Very Spammy, but could be helpful if you have an issue)
+DebugLogging: false
+
+#Ignore FrostWalker if LightLevel is above...
+LightLevel: 12
+
+#Revert Ice to Water
+NightRevertIce: true
+DayRevertIce: true
+#Wait X ticks for the Revert... Allows players to use
+#FrostWalker without turning the world to Ice
+WaitTimeForIceRevert: 60
+
+#Op's aren't affected by plugin
+AdminOverride: true
+
+#Bypass Permission
+BypassPermission: FrostWalkerDefense.Bypass
+
+#Region Restrict
+#Use with WorldGuard, Only allow FrostWalker to work where player has WorldGuard build permissions.
+#Stay off my lawn!
+WGRegionRestrict: true
+
+#Worlds the Plugin will pay attention too
+AffectedWorlds:
+- world

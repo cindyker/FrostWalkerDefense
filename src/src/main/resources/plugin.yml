@@ -1,0 +1,11 @@
+name: FrostWalkerDefense
+version: 1.0
+main: com.minecats.cindyk.frostwalkerdefense.FrostWalkerDefense
+author: cindy_k
+description: Remove the ability for FrostWalker Boots to freeze water.
+softdepend: [Vault]
+commands:
+    frostwalkerdefense:
+        aliases: [fwd]
+        description: Reload config
+        usage: /frostwalkerdefense reload
